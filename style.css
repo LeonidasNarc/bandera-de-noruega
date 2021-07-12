@@ -1,0 +1,65 @@
+.padre{
+    width: 50%;
+    height: 450px;
+    display: flex;
+}
+
+.lado-izq{
+    width: 35%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lado-dere{
+    width: 65%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.lado-izq-arriba{
+    height: 45%;
+    background-color: white;
+    justify-content: flex-start;
+}
+
+.lado-izq-abajo{
+    height: 45%;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.lado-izq-rojo{
+    width: 90%;
+    height: 90%;
+    background-color: red;
+}
+
+.lado-dere-arriba{
+    height: 45%;
+    width: 90%;
+    background-color: white;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.lado-dere-abajo{
+    height: 45%;
+    width: 90%;
+    background-color:white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.lado-dere-rojo{
+    width: 94%;
+    height: 90%;
+    background-color: red;
+}
